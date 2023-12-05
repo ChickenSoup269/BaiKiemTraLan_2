@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <Button
+            android:id="@+id/btnAlcoholic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Alcoholic"
+            app:cornerRadius="15px" />
+
+        <Button
+            android:id="@+id/btnNonAlcoholic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:text="Non-Alcoholic"
+            app:cornerRadius="12px" />
+
+        <Button
+            android:id="@+id/btnGin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginRight="2dp"
+            android:text="Gin"
+            app:cornerRadius="15px" />
+
+        <Button
+            android:id="@+id/btnVodka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Vodka"
+            app:cornerRadius="15px" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewCocktails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+
+</LinearLayout>

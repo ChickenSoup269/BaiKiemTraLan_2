@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView để hiển thị hình ảnh của cocktail -->
+    <ImageView
+        android:id="@+id/imageCocktail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        />
+
+    <!-- TextView để hiển thị tên cocktail -->
+    <TextView
+        android:id="@+id/textCocktailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageCocktail"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="8dp" />
+
+    <!-- Các chi tiết khác của cocktail nếu cần -->
+    <!-- Ví dụ: TextView để hiển thị thông tin chi tiết -->
+
+</RelativeLayout>

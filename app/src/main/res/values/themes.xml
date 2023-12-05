@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KiemTraLan_2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bluePrimary</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.KiemTraLan_2" parent="Base.Theme.KiemTraLan_2" />
+</resources>
